@@ -12,9 +12,26 @@ h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     opacity: 69%;
+    text-decoration: underline;
 }
 .intro{
     color: antiquewhite;
     font-weight: 300;
     font-size: medium;
+}
+.origin{
+    color: antiquewhite;
+    font-weight: 300;
+    line-height: 15px;
+}
+.believe{
+    color: antiquewhite;
+    padding-right: 50%;
+    line-height: 23px;
+    padding-top: 10px;
+}
+ul,li{
+    text-align: center;
+    
+
 }

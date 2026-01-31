@@ -1,0 +1,20 @@
+body{
+    background-color: darkorchid;
+    text-align: center;
+    border: 2px dotted honeydew;
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: larger;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    opacity: 69%;
+}
+.intro{
+    color: antiquewhite;
+    font-weight: 300;
+    font-size: medium;
+}

@@ -2,7 +2,7 @@ body{
     background-color: darkorchid;
     text-align: center;
     border: 2px dotted honeydew;
-}
+   }
 header{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
@@ -39,4 +39,7 @@ ul,li{
     text-decoration: cornsilk;
     padding-bottom: 30px;
     text-align: center;
+}
+.symbol{
+    border: 3px dotted black;
 }

@@ -5,8 +5,5 @@ const Gender = document.getElementById("Gender");
 const resultBox = document.getElementById("result-box");
 const akanName = document.getElementById("akan-name");
 
-const dateMonth{
-    jan
-}
+function c
 
-const choice

@@ -37,25 +37,12 @@
 
         <div id="year">
         <label for="Year">Year:</label>
-        <input type="number" id="year" name="year" placeholder="Enter year" required>
+        <input type="number" id="year" name="year" placeholder="e.g 2020" required>
         </div>
 
         <div id="Month">
         <label for="Month">Month:</label>
-        <select name="Month" id="Month">
-            <option value="Jan">Jan</option>
-            <option value="Feb">Feb</option>
-            <option value="March">March</option>
-            <option value="April">April</option>
-            <option value="May">May</option>
-            <option value="June">June</option>
-            <option value="July">July</option>
-            <option value="August">August</option>
-            <option value="Sept">Sept</option>
-            <option value="Oct">Oct</option>
-            <option value="Nov">Nov</option>
-            <option value="Dec">Dec</option>
-        </select>
+        <input type="number" id="month" name="month" placeholder="e.g 6" required>
         </div>
 
         <div id="Date">
@@ -103,7 +90,7 @@
         </select>
         </div>
 
-        <button onclick="calculateName()">Submit</button>
+        <button onclick="day">Submit</button>
         
     </form>
     </div>
@@ -111,12 +98,10 @@
     <h4>AKAN-SYMBOL</h4>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKLDxHuHMAI8ca-lC354viQVvU6Vp_VV0hrw&s" alt="symbol" height="250" width="250">
     </div> 
-    <div class="result-container" id="result-box">
-        <div class="name-display" id="akan-name"></div>
-
-        <div class="text-content">
-            <h4 id="akan-name">Name</h4>
-        </div>
+   
+    <div class="text-content">
+    <h4 id="akan-name">Name</h4>
+    </div>
     </div>
     <script src="./script.js"></script>
 </body>

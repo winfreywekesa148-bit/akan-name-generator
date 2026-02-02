@@ -1,6 +1,8 @@
 body{
     background-color: darkorchid;
     text-align: center;
+    justify-content: center;
+    margin: 0;
     border: 2px dotted honeydew;
    }
 header{
@@ -13,6 +15,9 @@ h4{
     color: black;
     opacity: 69%;
     text-decoration: underline;
+    margin-top: 0; 
+    font-size: 1.8rem; 
+    letter-spacing: 1px; 
 }
 .intro{
     color: antiquewhite;
@@ -48,4 +53,5 @@ ul,li{
     font-weight: 600;
     color: antiquewhite;
     text-align: center;
+    box-shadow: 0 0 30px rgba(0, 243, 255, 0.2);
 }

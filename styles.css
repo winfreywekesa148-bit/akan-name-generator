@@ -48,7 +48,7 @@ ul,li{
 .symbol{
     border: 3px dotted black;
 }
-.result-container{
+.text-content{
     background-color: blueviolet;
     font-weight: 600;
     color: antiquewhite;

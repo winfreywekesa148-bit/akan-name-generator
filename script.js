@@ -38,6 +38,36 @@ const akanName = document.getElementById("akan-name");
     "Akosua", "Adwoa", "Abenaa", "Akua",
     "Yaa", "Afua", "Ama"
   ];
+  
+  if (male born on Sunday) {
+    console.log("Kwasi");
+  } else if (male born on Monday) {
+    console.log ("Kwadwo");
+  } else if (male born on Tuesday) {
+    console.log ("Kwabena");
+  } else if (male born on Wednesday) {
+    console.log ("Kwaku");
+  } else if (male born on Thursday) {
+    console.log ("Yaw");
+  } else if (male born on Friday) {
+    console.log ("Kofi");
+  } else if (male born on Saturday) {
+    console.log ("Kwame");
+  } else if (female born on Sunday) {
+    console.log("Akosua");
+  } else if (female born on Monday) {
+    console.log ("Adwoa");
+  } else if (female born on Tuesday) {
+    console.log ("Abenaa");
+  } else if (Female born on Wednesday) {
+    console.log ("Akua");
+  } else if (female born on Thursday) {
+    console.log ("Yaa");
+  } else if (female born on Friday) {
+    console.log ("Afua");
+  } else (female born on Saturday) {
+    console.log ("Ama");
+  }
 
   const akanName =
     gender.value === "male"
